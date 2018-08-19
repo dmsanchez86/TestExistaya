@@ -88,21 +88,6 @@
     }
 
     &-logo{
-        display: flex;
-
-        > img{
-            max-width: 60px;
-            align-self: auto;
-        }
-
-        > span{
-            padding-top: .35rem;
-            line-height: 1;
-            font-size: 1.15rem;
-
-            b{
-                font-size: 1.85rem;
-            }
-        }
+        margin-top: .5rem;
     }
 }
