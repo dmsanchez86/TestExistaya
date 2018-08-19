@@ -71,13 +71,17 @@
         padding-top: 1rem;
 
         ul{
+            padding: 0;
+            text-align: center;
+
             li{
                 display: inline-block;
                 vertical-align: top;
-                padding: .15rem .35rem;
 
                 a{
                     text-transform: uppercase;
+                    display: block;
+                    padding: .15rem .35rem;
 
                     &:focus,
                     &:hover{
