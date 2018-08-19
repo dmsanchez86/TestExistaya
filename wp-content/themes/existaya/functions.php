@@ -23,3 +23,9 @@ function the_breadcrumb() {
         echo "</span> / ";
     }
 }
+
+add_action( 'after_setup_theme', 'my_custom_logo' );
+
+function my_custom_logo() {
+    add_theme_support( 'custom-logo' );
+}
