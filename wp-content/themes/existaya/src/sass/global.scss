@@ -2,13 +2,19 @@
 .help,
 .account,
 .contact {
-    color: gray;
+    color: #4a4a4a;
     display: inline-block;
     vertical-align: top;
 
     a,
     &-link {
-        color: gray;
+        color: #4a4a4a;
+
+        &:hover,
+        &:focus{
+            color: lighten(#4a4a4a, 10);
+            text-decoration: none;
+        }
     }
 }
 
