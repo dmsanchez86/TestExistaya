@@ -2,8 +2,7 @@
 function the_breadcrumb() {
     if (!is_home()) {
         echo '<span class="removed_link">';
-        echo '<a href="'. get_option('home') .'">';
-        bloginfo('name');
+        echo '<a href="'. get_option('home') .'">Home';
         echo "</a>";
         echo "</span> / ";
         if (is_category() || is_single()) {
@@ -20,8 +19,7 @@ function the_breadcrumb() {
             echo "</a>";
         }
     }else{
-        echo '<span class="removed_link">';
-        bloginfo('name');
+        echo '<span class="removed_link">Home';
         echo "</span> / ";
     }
 }
