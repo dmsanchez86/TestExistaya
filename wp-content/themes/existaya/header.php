@@ -44,21 +44,22 @@
 							<div class="row">
 								<div class="col">
 									<div class="app-header-logo logo">
-										<a href="#" title="<?php bloginfo( 'name' ); ?>">
+										<a href="<?= esc_url( home_url( '/' ) ); ?>" title="<?php bloginfo( 'name' ); ?>">
 											<img src="<?= get_stylesheet_directory_uri(); ?>/src/images/logo.png" alt="<?php bloginfo( 'name' ); ?>">
 										</a>
+										<?php #the_custom_logo(); ?>
 									</div>
 								</div>
 								<div class="col-7">
 									<nav class="app-header-nav">
-										<ul>
-											<li><a href="#">Libros</a></li>
-											<li><a href="#">Ebooks</a></li>
-											<li><a href="#">Recomendados</a></li>
-											<li><a href="#">Novedades</a></li>
-											<li><a href="#">Blogs</a></li>
-											<li><a href="#">Promociones</a></li>
-										</ul>
+										<?php
+											wp_nav_menu(
+												array(
+													'theme_location' => 'top',
+													'menu_id'        => 'principal-menu',
+												)
+											);
+										?>
 									</nav>
 								</div>
 								<div class="col text-right">
@@ -82,9 +83,7 @@
 						<div class="container">
 							<div class="row">
 								<div class="col">
-									<div class="">
-										<a href="#">Home</a> / <a href="#" class="active">Promociones</a>
-									</div>
+									<?php the_breadcrumb(); ?>
 								</div>
 							</div>
 						</div>
