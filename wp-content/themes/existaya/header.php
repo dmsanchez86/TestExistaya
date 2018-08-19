@@ -44,10 +44,7 @@
 							<div class="row">
 								<div class="col">
 									<div class="app-header-logo logo">
-										<a href="<?= esc_url( home_url( '/' ) ); ?>" title="<?php bloginfo( 'name' ); ?>">
-											<img src="<?= get_stylesheet_directory_uri(); ?>/src/images/logo.png" alt="<?php bloginfo( 'name' ); ?>">
-										</a>
-										<?php #the_custom_logo(); ?>
+										<?php if ( function_exists( 'the_custom_logo' ) ) the_custom_logo(); ?>
 									</div>
 								</div>
 								<div class="col-7">
