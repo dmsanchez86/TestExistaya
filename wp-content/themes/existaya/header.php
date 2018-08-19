@@ -44,8 +44,9 @@
 							<div class="row">
 								<div class="col">
 									<div class="app-header-logo logo">
-										<img src="<?= get_stylesheet_directory_uri(); ?>/src/images/favicon.png" alt="">
-										<span>Libreria<br><b>Nacional</b></span>
+										<a href="#" title="<?php bloginfo( 'name' ); ?>">
+											<img src="<?= get_stylesheet_directory_uri(); ?>/src/images/logo.png" alt="<?php bloginfo( 'name' ); ?>">
+										</a>
 									</div>
 								</div>
 								<div class="col-7">
