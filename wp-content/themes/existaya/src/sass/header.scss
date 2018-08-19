@@ -1,0 +1,108 @@
+.app-header{
+    &-top,
+    &-main{
+        padding: .15rem 0 .25rem;
+    }
+    
+    &-top{
+        background: #000;
+    }
+    
+    &-main{
+        background: #191919;
+        color: white;
+        
+        a{
+            color: white;
+        }
+
+        &-icons{
+            margin-top: .8rem;
+
+            > span{
+                &:last-child{
+                    a{
+                        &:first-child{ margin-right: 0; }
+                        &:last-child{ 
+                            margin-left: -3px;
+                            background: #000;
+                            padding: .3rem .65rem; 
+                            
+                            &:hover,
+                            &:focus {
+                                background-color: lighten(#000, 3) !important;
+                            }
+                        }
+                    }
+                }
+
+                > a{
+                    display: inline-block;
+                    vertical-align: top;
+                    padding: .3rem .4rem;
+                    margin: .15rem .25rem;
+                    background: #262626;
+                    border-radius: 1px;
+
+                    &:hover,
+                    &:focus{
+                        background-color: lighten(#262626, 10);
+                    }
+                }
+            }
+        }
+    }
+    
+    &-breadcrumb{
+        padding: .15rem 0 .25rem;
+        background: #e4e4e4;
+        color: #5c5c5c;
+
+        a{
+            color: #5c5c5c;
+
+            &.active{
+                font-weight: bold;
+            }
+        }
+    }
+
+    &-nav{
+        padding-top: 1rem;
+
+        ul{
+            li{
+                display: inline-block;
+                vertical-align: top;
+                padding: .15rem .35rem;
+
+                a{
+                    text-transform: uppercase;
+
+                    &:focus,
+                    &:hover{
+                    }
+                }
+            }
+        }
+    }
+
+    &-logo{
+        display: flex;
+
+        > img{
+            max-width: 60px;
+            align-self: auto;
+        }
+
+        > span{
+            padding-top: .35rem;
+            line-height: 1;
+            font-size: 1.15rem;
+
+            b{
+                font-size: 1.85rem;
+            }
+        }
+    }
+}
