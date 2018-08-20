@@ -10176,9 +10176,9 @@ a.text-dark:hover, a.text-dark:focus {
     margin-bottom: 0; }
   .content-articles-item:nth-child(odd) .description-book {
     padding-left: 1.5rem; }
-  .content-articles-item:nth-child(even) .row .col-7:first-child {
+  .content-articles-item:nth-child(even) .row .col-md-7:first-child {
     order: 2; }
-  .content-articles-item:nth-child(even) .row .col-7:last-child {
+  .content-articles-item:nth-child(even) .row .col-md-7:last-child {
     order: 1; }
   .content-articles-item .description-book {
     display: flex;

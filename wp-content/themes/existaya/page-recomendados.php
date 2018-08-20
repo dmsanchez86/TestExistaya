@@ -13,7 +13,7 @@ get_header(); ?>
 			<div class="content-articles-row">
 				<div class="content-articles-item">
 					<div class="row">
-						<div class="col-12 col-md7">
+						<div class="col-12 col-md-7">
 							<div class="owl-carousel">
 								<div class="image-book">
 									<img src="<?= get_stylesheet_directory_uri(); ?>/src/images/plantilla.png" alt="">
@@ -45,7 +45,7 @@ get_header(); ?>
 				</div>
 				<div class="content-articles-item">
 					<div class="row">
-						<div class="col-12 col-md7">
+						<div class="col-12 col-md-7">
 							<div class="owl-carousel">
 								<div class="image-book">
 									<img src="<?= get_stylesheet_directory_uri(); ?>/src/images/plantilla.png" alt="">
@@ -62,8 +62,8 @@ get_header(); ?>
 							<div class="description-book">
 								<div class="row align-items-center">
 									<div>
-										<h6>La literatura une a todos los generos</h6>
-										<h1>20% de descuento <br>en tienda virtual</h1>
+										<h6>Porque dos son mejor que uno</h6>
+										<h1>Segundo libro <br>50% de descuento</h1>
 										<div><span><i class="fas fa-tag"></i> aplica para libros fisicos de la tienda virtual</span></div>
 										<div><span><i class="fas fa-calendar"></i> Marzo 12 de 2018 | 00:00 AM - Marzo 12 de 2018 | 11:59 PM</span></div>
 										<div>
@@ -77,7 +77,7 @@ get_header(); ?>
 				</div>
 				<div class="content-articles-item">
 					<div class="row">
-						<div class="col-12 col-md7">
+						<div class="col-12 col-md-7">
 							<div class="owl-carousel">
 								<div class="image-book">
 									<img src="<?= get_stylesheet_directory_uri(); ?>/src/images/plantilla.png" alt="">
@@ -94,8 +94,8 @@ get_header(); ?>
 							<div class="description-book">
 								<div class="row align-items-center">
 									<div>
-										<h6>La literatura une a todos los generos</h6>
-										<h1>20% de descuento <br>en tienda virtual</h1>
+										<h6>Ciencias Sociales</h6>
+										<h1>20% de descuento <br>en Editorial Planeta</h1>
 										<div><span><i class="fas fa-tag"></i> aplica para libros fisicos de la tienda virtual</span></div>
 										<div><span><i class="fas fa-calendar"></i> Marzo 12 de 2018 | 00:00 AM - Marzo 12 de 2018 | 11:59 PM</span></div>
 										<div>
