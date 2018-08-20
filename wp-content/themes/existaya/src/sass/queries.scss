@@ -1,0 +1,70 @@
+@media (max-width: 575px){
+    .powered,
+    .app-footer-bottom,
+    .app-header-top,
+    .app-header-top .text-right{
+        text-align: center !important;
+    }
+    .app-footer-nav{
+        padding-left: 1rem;
+    }
+
+    .content-articles-item .description-book {
+        padding-left: 1.5rem;
+    }
+    
+    .app-page-title {
+        padding: 2rem 0 3.5rem;
+
+        h1{
+            font-size: 1.5rem;
+        }
+    }
+    
+    .content-articles-item{
+        margin: 2.5rem 0;
+
+        &:first-child {
+            margin-top: -1.5rem;
+        }
+        
+        .description-book {
+            h1 {
+                font-size: 1.5rem;
+            }
+
+            button {
+                margin-top: 1.2rem;
+                padding: .45rem 1rem;
+            }
+        }
+        
+    }
+
+    .bookweek .description-caratula {
+        h1 {
+            font-size: 1.5rem;
+        }
+    }
+
+    
+}
+
+@media (max-width: 400px){
+
+    .app-header-main-icons>span>a {
+        padding: .15rem .2rem;
+        font-size: .8rem;
+    }
+
+    .app-header-main-icons>span:last-child a:last-child {
+        padding: .15rem .33rem;
+    }
+}
+
+@media (max-width: 360px) {
+    .contact,
+    .help {
+        margin-right: 0;
+    }
+}
