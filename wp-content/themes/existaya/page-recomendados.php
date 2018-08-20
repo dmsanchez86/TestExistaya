@@ -14,8 +14,16 @@ get_header(); ?>
 				<div class="content-articles-item">
 					<div class="row">
 						<div class="col-7">
-							<div class="image-book">
-								<img src="<?= get_stylesheet_directory_uri(); ?>/src/images/plantilla.png" alt="">
+							<div class="owl-carousel">
+								<div class="image-book">
+									<img src="<?= get_stylesheet_directory_uri(); ?>/src/images/plantilla.png" alt="">
+								</div>
+								<div class="image-book">
+									<img src="<?= get_stylesheet_directory_uri(); ?>/src/images/plantilla.png" alt="">
+								</div>
+								<div class="image-book">
+									<img src="<?= get_stylesheet_directory_uri(); ?>/src/images/plantilla.png" alt="">
+								</div>
 							</div>
 						</div>
 						<div class="col">
@@ -38,8 +46,16 @@ get_header(); ?>
 				<div class="content-articles-item">
 					<div class="row">
 						<div class="col-7">
-							<div class="image-book">
-								<img src="<?= get_stylesheet_directory_uri(); ?>/src/images/plantilla.png" alt="">
+							<div class="owl-carousel">
+								<div class="image-book">
+									<img src="<?= get_stylesheet_directory_uri(); ?>/src/images/plantilla.png" alt="">
+								</div>
+								<div class="image-book">
+									<img src="<?= get_stylesheet_directory_uri(); ?>/src/images/plantilla.png" alt="">
+								</div>
+								<div class="image-book">
+									<img src="<?= get_stylesheet_directory_uri(); ?>/src/images/plantilla.png" alt="">
+								</div>
 							</div>
 						</div>
 						<div class="col">
@@ -62,8 +78,16 @@ get_header(); ?>
 				<div class="content-articles-item">
 					<div class="row">
 						<div class="col-7">
-							<div class="image-book">
-								<img src="<?= get_stylesheet_directory_uri(); ?>/src/images/plantilla.png" alt="">
+							<div class="owl-carousel">
+								<div class="image-book">
+									<img src="<?= get_stylesheet_directory_uri(); ?>/src/images/plantilla.png" alt="">
+								</div>
+								<div class="image-book">
+									<img src="<?= get_stylesheet_directory_uri(); ?>/src/images/plantilla.png" alt="">
+								</div>
+								<div class="image-book">
+									<img src="<?= get_stylesheet_directory_uri(); ?>/src/images/plantilla.png" alt="">
+								</div>
 							</div>
 						</div>
 						<div class="col">
@@ -115,6 +139,19 @@ get_header(); ?>
 		</div>
 	</div>
 </div>
+
+<script src="<?= get_stylesheet_directory_uri(); ?>/src/js/jquery.min.js"></script>
+<script src="<?= get_stylesheet_directory_uri(); ?>/src/js/owl.carousel.min.js"></script>
+<script>
+	$(document).ready(function(){
+		$(".owl-carousel").owlCarousel({ 
+			items: 1, 
+			loop: true, 
+			autoplay: true, 
+			autoplayTimeout: 2500, 
+		});
+	});
+</script>
 
 <?php
 get_footer();
