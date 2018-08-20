@@ -86,6 +86,34 @@ get_header(); ?>
 			</div>
 		</div>
 	</div>
+
+	<div class="bookweek">
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<h3 class="title-top">Libro de la semana <span class="right">Conocer mas ></span></h3>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-2">
+					<div class="image-caratula">
+						<img src="<?= get_stylesheet_directory_uri(); ?>/src/images/caratula.png" alt="">
+					</div>
+				</div>
+				<div class="col">
+					<div class="description-caratula">
+						<h1>El caballero de la armadura oxidada</h1>
+						<h3 class="author">Robert Fisher</h3>
+						<span class="reseña"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i> 3 reseñas</span>
+						<span class="price">$57.000</span>
+						<p>
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio ipsam rem natus cumque! Ipsa, quae itaque? Tempora, velit. Veniam dolores hic dolorem perspiciatis quia quasi recusandae accusantium, ut eum architecto!
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 </div>
 
 <?php
