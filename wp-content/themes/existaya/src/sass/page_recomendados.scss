@@ -86,6 +86,15 @@
         .right{
             float: right;
             font-size: 1.15rem;
+
+            a{
+                color: #000;
+
+                &:hover,
+                &:focus{
+                    text-decoration: underline;
+                }
+            }
         }
     }
 
@@ -124,6 +133,7 @@
                 font-size: .9rem;
                 display: inline-block;
                 margin: 0 .25rem;
+                cursor: pointer;
             }
         }
 
