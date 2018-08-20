@@ -10219,6 +10219,12 @@ a.text-dark:hover, a.text-dark:focus {
     .bookweek .title-top .right {
       float: right;
       font-size: 1.15rem; }
+      .bookweek .title-top .right a {
+        color: #000; }
+        .bookweek .title-top .right a:hover, .bookweek .title-top .right a:focus {
+          text-decoration: underline; }
+  .bookweek .image-caratula {
+    text-align: center; }
   .bookweek .description-caratula h1 {
     font-weight: bold;
     font-size: 2rem;
@@ -10243,7 +10249,8 @@ a.text-dark:hover, a.text-dark:focus {
   .bookweek .description-caratula .reseña i {
     font-size: .9rem;
     display: inline-block;
-    margin: 0 .25rem; }
+    margin: 0 .25rem;
+    cursor: pointer; }
   .bookweek .description-caratula .price {
     font-weight: bold;
     font-size: 1.3rem;
