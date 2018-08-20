@@ -32,7 +32,7 @@
 											</ul>
 										</div>
 									</div>
-									<div class="col">
+									<div class="col-4">
 										<div class="app-footer-nav">
 											<h5>Centro de Ayuda</h5>
 											<ul>
@@ -49,8 +49,8 @@
 							<div class="col-4">
 								<div class="pagos">
 									<div>
-										Aceptamos todos los medios de pago
-										<img src="<?= get_stylesheet_directory_uri(); ?>/src/images/pagos.png" alt="">
+										<span>Aceptamos todos los medios de pago</span>
+										<span><img src="<?= get_stylesheet_directory_uri(); ?>/src/images/pagos.png" alt=""></span>
 									</div>
 									<span>
 										Pagos Seguros con: <img src="<?= get_stylesheet_directory_uri(); ?>/src/images/payu.png" alt="">
