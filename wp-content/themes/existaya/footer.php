@@ -5,7 +5,7 @@
 						<div class="row">
 							<div class="col-8">
 								<div class="row">
-									<div class="col-6">
+									<div class="col-5">
 										<div class="app-footer-logo logo">
 											<?php if ( function_exists( 'the_custom_logo' ) ) the_custom_logo(); ?>
 										</div>
@@ -17,11 +17,11 @@
 											Teléfono: <a href="tel:+5728841114">(57) 2 844 11 14</a> <br><br>
 
 											<b>Confederación Colombiana de Consumidores</b>
-											<a target="_blank" href="http://www.cconsumidores.org.co">www.cconsumidores.org.co</a>
+											<a target="_blank" href="http://www.ccconsumidores.org.co">www.ccconsumidores.org.co</a>
 										</div>
 									</div>
-									<div class="col-3">
-										<div class="app-footer-menu">
+									<div class="col">
+										<div class="app-footer-nav">
 											<h5>Corporativo</h5>
 											<ul>
 												<li><a href="#">Quiénes Somos</a></li>
@@ -33,7 +33,7 @@
 										</div>
 									</div>
 									<div class="col">
-										<div class="app-footer-menu">
+										<div class="app-footer-nav">
 											<h5>Centro de Ayuda</h5>
 											<ul>
 												<li><a href="#">PQRS</a></li>
