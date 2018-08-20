@@ -1,3 +1,4 @@
+@charset "UTF-8";
 html {
   font-family: sans-serif;
   line-height: 1.15;
@@ -9926,7 +9927,7 @@ a.text-dark:hover, a.text-dark:focus {
 .app-page {
   background-color: white; }
   .app-page-title {
-    padding: 4rem 5rem;
+    padding: 4rem 0 7rem;
     background-color: #fafafa; }
     .app-page-title i {
       display: block;
@@ -9935,6 +9936,96 @@ a.text-dark:hover, a.text-dark:focus {
       font-size: 2.5rem;
       color: #4a4a4a;
       font-weight: bold; }
+
+.content-articles-row {
+  padding-bottom: 4.5rem; }
+
+.content-articles-item {
+  margin: 4.5rem 0; }
+  .content-articles-item:first-child {
+    margin-top: -3.5rem; }
+  .content-articles-item:last-child {
+    margin-bottom: 0; }
+  .content-articles-item:nth-child(odd) .description-book {
+    padding-left: 1.5rem; }
+  .content-articles-item:nth-child(even) .row .col-7:first-child {
+    order: 2; }
+  .content-articles-item:nth-child(even) .row .col-7:last-child {
+    order: 1; }
+  .content-articles-item .description-book {
+    display: flex;
+    height: 100%;
+    line-height: 1; }
+    .content-articles-item .description-book h6, .content-articles-item .description-book h1 {
+      color: #4a4a4a;
+      margin: 0; }
+    .content-articles-item .description-book h6 {
+      font-size: .9rem; }
+    .content-articles-item .description-book h1 {
+      font-size: 2.5rem;
+      font-weight: bold;
+      line-height: .9;
+      margin: .5rem 0; }
+    .content-articles-item .description-book span {
+      color: #d7d7d7;
+      font-size: .75rem; }
+    .content-articles-item .description-book button {
+      margin-top: 2rem;
+      background: #d8d8d8;
+      border: none;
+      border-radius: 5px;
+      color: #4a4a4a;
+      padding: .9rem 2rem;
+      transition: 150ms; }
+      .content-articles-item .description-book button:hover, .content-articles-item .description-book button:focus {
+        transform: scale(1.05);
+        background: #bfbfbf; }
+
+.bookweek {
+  background: #fafafa;
+  padding: 3rem 0; }
+  .bookweek .title-top {
+    font-weight: bold;
+    border-bottom: solid 1px #d7d7d7;
+    padding-bottom: .7rem;
+    margin-bottom: 2rem;
+    font-size: 1.5rem; }
+    .bookweek .title-top .right {
+      float: right;
+      font-size: 1.15rem; }
+  .bookweek .description-caratula h1 {
+    font-weight: bold;
+    font-size: 2rem;
+    margin-top: .65rem; }
+  .bookweek .description-caratula h3 {
+    font-size: 1rem;
+    position: relative;
+    padding-left: 34px; }
+    .bookweek .description-caratula h3:before {
+      width: 28px;
+      height: 2px;
+      background-color: #000;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      margin: auto;
+      content: ''; }
+  .bookweek .description-caratula .reseña,
+  .bookweek .description-caratula .price {
+    display: block; }
+  .bookweek .description-caratula .reseña i {
+    font-size: .9rem;
+    display: inline-block;
+    margin: 0 .25rem; }
+  .bookweek .description-caratula .price {
+    font-weight: bold;
+    font-size: 1.3rem;
+    margin: .5rem 0; }
+  .bookweek .description-caratula p {
+    margin-top: 1.5rem;
+    font-size: 1rem;
+    color: #444444; }
 
 .app-footer-bottom, .app-footer-main {
   padding: .15rem 0 .25rem; }
@@ -10045,3 +10136,6 @@ body *:not(i):not(.ab-icon) {
 
 img {
   max-width: 100%; }
+
+a, button {
+  cursor: pointer; }
