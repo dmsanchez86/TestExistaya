@@ -74,7 +74,7 @@
 									&copy; Libreria Nacional <?= Date('Y') ?> - Todos los derechos reservados
 								</div>
 							</div>
-							<div class="col-md-3 offset-md-2 col-12 text-right">
+							<div class="col-md-4 offset-md-1 col-12 text-right">
 								<div class="powered">
 									Powered by <a href="http://dmsanchez86.github.io" target="_blank"> @dmsanchez86</a>
 								</div>
