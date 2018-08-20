@@ -1,0 +1,85 @@
+.app-footer {
+    &-bottom,
+    &-main {
+        padding: .15rem 0 .25rem;
+    }
+    &-bottom {
+        background: #7b7a7a;
+        color: #f9f9f9;
+
+        a{
+            color: #f9f9f9;
+        }
+    }
+    &-main {
+        padding-top: 1.3rem;
+        padding-bottom: 1.3rem;
+        background: #4a4a4a;
+        color: white;
+        a {
+            color: white;
+        }
+        &-icons {
+            margin-top: .8rem;
+            >span {
+                &:last-child {
+                    a {
+                        &:first-child {
+                            margin-right: 0;
+                        }
+                        &:last-child {
+                            margin-left: -3px;
+                            background: #000;
+                            padding: .3rem .65rem;
+                            &:hover,
+                            &:focus {
+                                background-color: lighten(#000, 3) !important;
+                            }
+                        }
+                    }
+                }
+                >a {
+                    display: inline-block;
+                    vertical-align: top;
+                    padding: .3rem .4rem;
+                    margin: .15rem .25rem;
+                    background: #262626;
+                    border-radius: 1px;
+                    &:hover,
+                    &:focus {
+                        background-color: lighten(#262626, 10);
+                    }
+                }
+            }
+        }
+    }
+    &-nav {
+        ul {
+            padding: 0;
+            li {
+                a {
+                    padding: .15rem .35rem;
+                }
+            }
+        }
+    }
+    &-logo {
+        margin: 1rem 0;
+    }
+
+    .contact,
+    .social{
+        color: white;
+        a{
+            color: white;
+            font-size: 2rem;
+            &:hover,
+            &:focus{
+                color: darken(white, 10);
+            }
+        }
+    }
+    .social {
+        margin-top: 1rem;
+    }
+}
