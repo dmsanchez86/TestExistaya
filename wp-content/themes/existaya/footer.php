@@ -3,9 +3,9 @@
 				<div class="app-footer-main">
 					<div class="container">
 						<div class="row">
-							<div class="col-8">
+							<div class="col-sm-12 col-md-8">
 								<div class="row">
-									<div class="col-5">
+									<div class="col-12 col-md-5">
 										<div class="app-footer-logo logo">
 											<?php if ( function_exists( 'the_custom_logo' ) ) the_custom_logo(); ?>
 										</div>
@@ -20,7 +20,7 @@
 											<a target="_blank" href="http://www.ccconsumidores.org.co">www.ccconsumidores.org.co</a>
 										</div>
 									</div>
-									<div class="col">
+									<div class="col-12 col-md-3">
 										<div class="app-footer-nav">
 											<h5>Corporativo</h5>
 											<ul>
@@ -32,7 +32,7 @@
 											</ul>
 										</div>
 									</div>
-									<div class="col-4">
+									<div class="col-12 col-md-4">
 										<div class="app-footer-nav">
 											<h5>Centro de Ayuda</h5>
 											<ul>
@@ -46,7 +46,7 @@
 									</div>
 								</div>
 							</div>
-							<div class="col-4">
+							<div class="col-sm-12 col-md-4">
 								<div class="pagos">
 									<div>
 										<span>Aceptamos todos los medios de pago</span>
@@ -69,12 +69,12 @@
 				<div class="app-footer-bottom">
 					<div class="container">
 						<div class="row">
-							<div class="col-md-7 col-xs-12">
+							<div class="col-md-7 col-12">
 								<div class="contact">
 									&copy; Libreria Nacional <?= Date('Y') ?> - Todos los derechos reservados
 								</div>
 							</div>
-							<div class="col-md-3 offset-md-2 col-xs-12 text-right">
+							<div class="col-md-3 offset-md-2 col-12 text-right">
 								<div class="powered">
 									Powered by <a href="http://dmsanchez86.github.io" target="_blank"> @dmsanchez86</a>
 								</div>

@@ -13,7 +13,7 @@ get_header(); ?>
 			<div class="content-articles-row">
 				<div class="content-articles-item">
 					<div class="row">
-						<div class="col-7">
+						<div class="col-12 col-md7">
 							<div class="owl-carousel">
 								<div class="image-book">
 									<img src="<?= get_stylesheet_directory_uri(); ?>/src/images/plantilla.png" alt="">
@@ -26,7 +26,7 @@ get_header(); ?>
 								</div>
 							</div>
 						</div>
-						<div class="col">
+						<div class="col-12 col-md-5">
 							<div class="description-book">
 								<div class="row align-items-center">
 									<div>
@@ -45,7 +45,7 @@ get_header(); ?>
 				</div>
 				<div class="content-articles-item">
 					<div class="row">
-						<div class="col-7">
+						<div class="col-12 col-md7">
 							<div class="owl-carousel">
 								<div class="image-book">
 									<img src="<?= get_stylesheet_directory_uri(); ?>/src/images/plantilla.png" alt="">
@@ -58,7 +58,7 @@ get_header(); ?>
 								</div>
 							</div>
 						</div>
-						<div class="col">
+						<div class="col-12 col-md-5">
 							<div class="description-book">
 								<div class="row align-items-center">
 									<div>
@@ -77,7 +77,7 @@ get_header(); ?>
 				</div>
 				<div class="content-articles-item">
 					<div class="row">
-						<div class="col-7">
+						<div class="col-12 col-md7">
 							<div class="owl-carousel">
 								<div class="image-book">
 									<img src="<?= get_stylesheet_directory_uri(); ?>/src/images/plantilla.png" alt="">
@@ -90,7 +90,7 @@ get_header(); ?>
 								</div>
 							</div>
 						</div>
-						<div class="col">
+						<div class="col-12 col-md-5">
 							<div class="description-book">
 								<div class="row align-items-center">
 									<div>
@@ -115,16 +115,16 @@ get_header(); ?>
 		<div class="container">
 			<div class="row">
 				<div class="col">
-					<h3 class="title-top">Libro de la semana <span class="right">Conocer mas ></span></h3>
+					<h3 class="title-top">Libro de la semana <span class="right"><a>Conocer más ></a></span></h3>
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-2">
+				<div class="col-12 col-md-2 col-sm-6">
 					<div class="image-caratula">
 						<img src="<?= get_stylesheet_directory_uri(); ?>/src/images/caratula.png" alt="">
 					</div>
 				</div>
-				<div class="col">
+				<div class="col-12 col-sm-6 col-md-10">
 					<div class="description-caratula">
 						<h1>El caballero de la armadura oxidada</h1>
 						<h3 class="author">Robert Fisher</h3>

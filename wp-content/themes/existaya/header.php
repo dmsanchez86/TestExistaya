@@ -21,7 +21,7 @@
 					<div class="app-header-top">
 						<div class="container">
 							<div class="row">
-								<div class="col-md-7 col-xs-12">
+								<div class="col-md-7 col-12">
 									<div class="contact">
 										Contacto: <a href="tel:+5728841114"> (+57) 2 884 11 14</a>
 									</div>
@@ -32,7 +32,7 @@
 										<a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
 									</div>
 								</div>
-								<div class="col-md-4 offset-md-1 col-xs-12 text-right">
+								<div class="col-md-4 offset-md-1 col-12 text-right">
 									<div class="help">
 										<a href="#"> Centro de Ayuda</a>
 									</div>
@@ -46,12 +46,12 @@
 					<div class="app-header-main">
 						<div class="container">
 							<div class="row">
-								<div class="col">
+								<div class="col-lg-3 col-6 text-center">
 									<div class="app-header-logo logo">
 										<?php if ( function_exists( 'the_custom_logo' ) ) the_custom_logo(); ?>
 									</div>
 								</div>
-								<div class="col-7">
+								<div class="col-12 col-lg-7 col-md-12 order-3 order-md-3 order-sm-3 order-lg-2">
 									<nav class="app-header-nav">
 										<?php
 											wp_nav_menu(
@@ -63,7 +63,7 @@
 										?>
 									</nav>
 								</div>
-								<div class="col text-right">
+								<div class="col-6 col-lg-2 order-lg-3 text-right">
 									<div class="app-header-main-icons">
 										<span class="search">
 											<a href="#"><i class="fas fa-search"></i></a>
