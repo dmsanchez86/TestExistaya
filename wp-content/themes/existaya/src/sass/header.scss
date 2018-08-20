@@ -78,14 +78,17 @@
                 display: inline-block;
                 vertical-align: top;
 
+                &.current_page_item,
+                &.active {
+                    a{
+                        text-decoration: underline;
+                    }
+                }
+
                 a{
                     text-transform: uppercase;
                     display: block;
                     padding: .15rem .35rem;
-
-                    &:focus,
-                    &:hover{
-                    }
                 }
             }
         }
