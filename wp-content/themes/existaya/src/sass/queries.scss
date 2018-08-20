@@ -5,16 +5,33 @@
     .app-header-top .text-right {
         text-align: center !important;
     }
-}
-@media (max-width: 575px){
-    .app-footer-nav{
-        padding-left: 1rem;
+
+    .content-articles-item{
+        &:nth-child(even) {
+            .row {
+                .col-md-7 {
+                    order: 1;
+                }
+                .col-md-5 {
+                    order: 2;
+                }
+            }
+        }
     }
 
     .content-articles-item .description-book {
         padding-left: 1.5rem;
     }
-    
+
+    .app-footer-nav {
+        padding-left: 1rem;
+
+        h5{
+            margin-top: 1rem;
+        }
+    }
+}
+@media (max-width: 575px){    
     .app-page-title {
         padding: 2rem 0 3.5rem;
 
@@ -130,8 +147,7 @@
         &:target{
             transform: translate(0%, 0%);
         }
-    }
-    
+    }    
 }
 
 @media (max-width: 400px){
