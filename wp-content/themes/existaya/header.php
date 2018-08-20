@@ -17,6 +17,9 @@
 
 		<body <?php body_class(); ?>>
 			<main class="app">
+				<div class="content-menu-mobile d-block d-sm-none">
+					<a href="#main-menu"><i class="fas fa-ellipsis-v"></i></a>
+				</div>
 				<header class="app-header">
 					<div class="app-header-top">
 						<div class="container">
@@ -52,7 +55,7 @@
 									</div>
 								</div>
 								<div class="col-12 col-lg-7 col-md-12 order-3 order-md-3 order-sm-3 order-lg-2">
-									<nav class="app-header-nav">
+									<nav class="app-header-nav" id="main-menu">
 										<?php
 											wp_nav_menu(
 												array(
@@ -61,6 +64,7 @@
 												)
 											);
 										?>
+										<div class="button-close d-block d-sm-none"><a href="#"><i class="fas fa-times-circle"></i></a></div>
 									</nav>
 								</div>
 								<div class="col-6 col-lg-2 order-lg-3 text-right">
