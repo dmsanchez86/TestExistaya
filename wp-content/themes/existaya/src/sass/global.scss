@@ -1,3 +1,7 @@
+body *:not(i){
+    font-family: 'PT Sans Narrow', sans-serif !important;
+}
+
 .social,
 .help,
 .account,
@@ -33,4 +37,8 @@
 
 .contact, .help {
     margin-right: 1.5rem;
+}
+
+img{
+    max-width: 100%;
 }

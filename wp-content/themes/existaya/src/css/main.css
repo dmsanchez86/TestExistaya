@@ -9909,24 +9909,81 @@ a.text-dark:hover, a.text-dark:focus {
 
 .app-header-nav {
   padding-top: 1rem; }
-  .app-header-nav ul li {
-    display: inline-block;
-    vertical-align: top;
-    padding: .15rem .35rem; }
-    .app-header-nav ul li a {
-      text-transform: uppercase; }
+  .app-header-nav ul {
+    padding: 0;
+    text-align: center; }
+    .app-header-nav ul li {
+      display: inline-block;
+      vertical-align: top; }
+      .app-header-nav ul li a {
+        text-transform: uppercase;
+        display: block;
+        padding: .15rem .35rem; }
 
 .app-header-logo {
-  display: flex; }
-  .app-header-logo > img {
-    max-width: 60px;
-    align-self: auto; }
-  .app-header-logo > span {
-    padding-top: .35rem;
-    line-height: 1;
-    font-size: 1.15rem; }
-    .app-header-logo > span b {
-      font-size: 1.85rem; }
+  margin-top: .5rem; }
+
+.app-footer-bottom, .app-footer-main {
+  padding: .15rem 0 .25rem; }
+
+.app-footer-bottom {
+  background: #7b7a7a;
+  color: #f9f9f9; }
+  .app-footer-bottom a {
+    color: #f9f9f9; }
+
+.app-footer-main {
+  padding-top: 1.3rem;
+  padding-bottom: 1.3rem;
+  background: #4a4a4a;
+  color: white; }
+  .app-footer-main a {
+    color: white; }
+  .app-footer-main-icons {
+    margin-top: .8rem; }
+    .app-footer-main-icons > span:last-child a:first-child {
+      margin-right: 0; }
+    .app-footer-main-icons > span:last-child a:last-child {
+      margin-left: -3px;
+      background: #000;
+      padding: .3rem .65rem; }
+      .app-footer-main-icons > span:last-child a:last-child:hover, .app-footer-main-icons > span:last-child a:last-child:focus {
+        background-color: #080808 !important; }
+    .app-footer-main-icons > span > a {
+      display: inline-block;
+      vertical-align: top;
+      padding: .3rem .4rem;
+      margin: .15rem .25rem;
+      background: #262626;
+      border-radius: 1px; }
+      .app-footer-main-icons > span > a:hover, .app-footer-main-icons > span > a:focus {
+        background-color: #404040; }
+
+.app-footer-nav ul {
+  padding: 0; }
+  .app-footer-nav ul li a {
+    padding: .15rem .35rem; }
+
+.app-footer-logo {
+  margin: 1rem 0; }
+
+.app-footer .contact,
+.app-footer .social {
+  color: white; }
+  .app-footer .contact a,
+  .app-footer .social a {
+    color: white;
+    font-size: 2rem; }
+    .app-footer .contact a:hover, .app-footer .contact a:focus,
+    .app-footer .social a:hover,
+    .app-footer .social a:focus {
+      color: #e6e6e6; }
+
+.app-footer .social {
+  margin-top: 1rem; }
+
+body *:not(i) {
+  font-family: 'PT Sans Narrow', sans-serif !important; }
 
 .social,
 .help,
@@ -9968,3 +10025,6 @@ a.text-dark:hover, a.text-dark:focus {
 
 .contact, .help {
   margin-right: 1.5rem; }
+
+img {
+  max-width: 100%; }
