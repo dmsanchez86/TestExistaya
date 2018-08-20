@@ -8,6 +8,10 @@
 
 			<link rel="icon" type="image/png" href="<?= get_stylesheet_directory_uri(); ?>/src/images/favicon.png">
 
+			<link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700" rel="stylesheet">
+
+			<title><?= bloginfo('name') ?></title>
+
 			<?php wp_head(); ?>
 		</head>
 
