@@ -12,8 +12,8 @@
         }
     }
     &-main {
-        padding-top: 1.3rem;
-        padding-bottom: 1.3rem;
+        padding-top: 2rem;
+        padding-bottom: 1.5rem;
         background: #4a4a4a;
         color: white;
         a {
@@ -64,7 +64,7 @@
         }
     }
     &-logo {
-        margin: 1rem 0;
+        margin: 0 0 1rem 0;
     }
 
     .contact,
@@ -79,7 +79,15 @@
             }
         }
     }
-    .social {
-        margin-top: 1rem;
+
+    .pagos{
+        span{
+            margin-bottom: 1rem;
+            display: block;
+        }
+
+        img{
+            vertical-align: middle;
+        }
     }
 }

@@ -9924,14 +9924,17 @@ a.text-dark:hover, a.text-dark:focus {
   margin-top: .5rem; }
 
 .app-page {
-  padding: 3rem 4rem; }
-  .app-page-title i {
-    display: block;
-    color: #9b9b9b; }
-  .app-page-title h1 {
-    font-size: 2.5rem;
-    color: #4a4a4a;
-    font-weight: bold; }
+  background-color: white; }
+  .app-page-title {
+    padding: 4rem 5rem;
+    background-color: #fafafa; }
+    .app-page-title i {
+      display: block;
+      color: #9b9b9b; }
+    .app-page-title h1 {
+      font-size: 2.5rem;
+      color: #4a4a4a;
+      font-weight: bold; }
 
 .app-footer-bottom, .app-footer-main {
   padding: .15rem 0 .25rem; }
@@ -9943,8 +9946,8 @@ a.text-dark:hover, a.text-dark:focus {
     color: #f9f9f9; }
 
 .app-footer-main {
-  padding-top: 1.3rem;
-  padding-bottom: 1.3rem;
+  padding-top: 2rem;
+  padding-bottom: 1.5rem;
   background: #4a4a4a;
   color: white; }
   .app-footer-main a {
@@ -9975,7 +9978,7 @@ a.text-dark:hover, a.text-dark:focus {
     padding: .15rem .35rem; }
 
 .app-footer-logo {
-  margin: 1rem 0; }
+  margin: 0 0 1rem 0; }
 
 .app-footer .contact,
 .app-footer .social {
@@ -9989,10 +9992,14 @@ a.text-dark:hover, a.text-dark:focus {
     .app-footer .social a:focus {
       color: #e6e6e6; }
 
-.app-footer .social {
-  margin-top: 1rem; }
+.app-footer .pagos span {
+  margin-bottom: 1rem;
+  display: block; }
 
-body *:not(i) {
+.app-footer .pagos img {
+  vertical-align: middle; }
+
+body *:not(i):not(.ab-icon) {
   font-family: 'PT Sans Narrow', sans-serif !important; }
 
 .social,

@@ -1,4 +1,4 @@
-body *:not(i){
+body *:not(i):not(.ab-icon) {
     font-family: 'PT Sans Narrow', sans-serif !important;
 }
 
